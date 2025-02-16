@@ -34,3 +34,13 @@ git push origin main
 ### Description
 Mô tả về commit: max 50  kí tự
 # Javascript
+##Javascript
+## Variable
+## Constant
+## Data types
+## Comparison operator
+## Unary operator
+## Arithmetic operator
+## Conditional
+## Loops
+## NOTE: Format code : Window: Alt Shift F
