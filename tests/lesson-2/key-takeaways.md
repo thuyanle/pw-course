@@ -34,13 +34,32 @@ git push origin main
 ### Description
 Mô tả về commit: max 50  kí tự
 # Javascript
-##Javascript
+
+## Javascript
+- Javascript chạy trên browser được browser engine support
+- Javascript chạy trên máy tính cần Node JS
 ## Variable
+- var: phạm vi toàn cục (global)
+- let: phạm vi trong ngoặc {}
+- Nên dùng let. dễ kiểm soát
+
 ## Constant
+- const: không thể gán lại giá trị khác
 ## Data types
+- string
+- number
+- boolean
+
 ## Comparison operator
+- So sánh hơn kém: ><>
+- So sánh bằng: ==, ===, !=, !==, >=, <=
 ## Unary operator
-## Arithmetic operator
+- i++ >>> i=i+1
+- i-- >>> i =i-1
+## Arithmetic operator: + - * /
 ## Conditional
+if (condition){//code}
+else {//code};
 ## Loops
+for (i=1; i<100; i++>){//code}
 ## NOTE: Format code : Window: Alt Shift F
