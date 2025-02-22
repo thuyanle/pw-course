@@ -38,10 +38,21 @@ git reset HEAD~2
 ### Định nghĩa
 Object = đối tượng, dùng để lưu trữ tập hợp các giá trị vào cùng một biến hoặc hằng số
 ### Khai báo
-let/const <ten_object>={
+- let/const <ten_object>={
     <thuoc_tinh_1>: <gia_tri_1>,
-    ...
-}
+    ...}
+- Thêm thuộc tính cho object
+object.thuocTinh= "gia tri";  
+hoặc  
+object["thuoc_tinh"]="gia_tri";
+- console.log("ten_object"){"thuoc_tinh_1":"gia_tri_1", "thuoc_tinh_2":"gia_tri_2"};
+- Xóa thuộc tính của object  
+delete object.attribute
+
+### NOTE
+Không thể thay đổi giá trị const nhưng có thể thay đổi thuộc tính của một const là object
+const student ={"name":"an","age":20};
+student.name = "an.le";
 ## Logical operator
 - && : cả 2 vế của mệnh đề đều
 đúng
@@ -53,6 +64,11 @@ mệnh đề
 ### Truy xuất mảng
 - Độ dài mảng: length
 - Lấy phần tử theo index [0],[1],[2]
+### Thêm phần tử vào mảng
+const arr = [1,2];  
+arr.push(3);  
+console.log (arr);  
+//Kết quả in ra [1,2,3]
 ## Function
 ### Định nghĩa
 Function = hàm, là đoạn code được đặt tên và có thể tái sử dụng, thực hiện 1 nhiệm vụ hoặc 1 tính toán cụ thể.
