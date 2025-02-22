@@ -1,3 +1,4 @@
+//car
 let car = {
     make: "Toyota",
     model: "Corolla",
@@ -5,6 +6,7 @@ let car = {
 };
 console.log(car.year);
 
+//person
 let person = {
     personName: "name",
     personAddress: {
@@ -15,6 +17,7 @@ let person = {
 };
 console.log(person.personAddress.street);
 
+//student
 let student = {
     studentName: "name",
     studentGrades: {
@@ -24,12 +27,14 @@ let student = {
 };
 console.log(student["studentGrades"]["math"]);
 
+//product - Không làm được
 const product = {
     laptop: 20,
     TV: 50,
     monitor: 10
 };
 
+//settings
 let settings = {
     volume: 10,
     brightness: 5
@@ -37,12 +42,14 @@ let settings = {
 settings.volume = 12;
 console.log(settings.volume);
 
+//bike
 let bike = {
     brand: "Vinfast"
 };
 bike.color = "red";
 console.log(bike);
 
+//employee
 let employee = {
     employeeName: "name",
     employeeAge: 40
@@ -50,6 +57,7 @@ let employee = {
 delete employee.employeeAge;
 console.log(employee);
 
+//scholl
 const school = {
     classA : ["An","Bình","Châu"],
     classB: ["Đào,","Hương","Giang"]
