@@ -18,7 +18,7 @@ tinhBMI(1.75, 50);
 tinhBMI(1.50, 60);
 tinhBMI(1.70, 60);
 
-// Chuyển đổi nhiệt độ
+// Chuyển đổi nhiệt độ - Không biết làm thế nào để trả ra error message
 function convertUnit (unit, value){
     if (unit == 'C'){
        return value * 9 /5 +32;
@@ -27,19 +27,49 @@ function convertUnit (unit, value){
         return (value - 32) * 5/9;
     }
     if (unit === 'C' || unit === 'F')
-        return ('nhập sai giá trị');
+        return ('error message');
 }
 convertUnit('C',2);
 console.log(convertUnit('C',2));
 console.log(convertUnit('D',2));
 
 // Tính tổng các phần tử của mảng
+function sumValue (arr){
+    let sum = 0;
+    for (let i=0; i < arr.length; i++){
+        sum += arr[i];
+    }
+    return sum;
+}
+
+const total = sumValue([1,3,5,7,9]);
+console.log (`Tổng các phần tử của mảng: ${total}`);
+
+
 
 // Lọc ra các số nguyên tố của một mảng
+function filterPrimeNumber (arr1){
+    for (let i=0; i < arr1.length)
+}
 
 // Cập nhật email
 
 // Điểm TB của sinh viên
+
+function averageScoreOfStudent (students){
+    let total = 0;
+    total += students.score;
+    let average =0;
+    average = total / students.length;
+    console.log (`Average: ${average}`);
+}
+
+const students = [
+    {name:'A', score:80},
+    {name:'B', score:75},
+    {name:'C', score:70}
+];
+
 
 // Kiểm tra giá trị sản phẩm
 
