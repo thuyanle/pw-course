@@ -47,14 +47,23 @@ console.log (`Tổng các phần tử của mảng: ${total}`);
 
 
 
-// Lọc ra các số nguyên tố của một mảng
+// Lọc ra các số nguyên tố của một mảng - Không chạy đúng
 function filterPrimeNumber (arr1){
-    for (let i=0; i < arr1.length)
+    let primeNumber = 0;
+    for (let i=0; i < arr1.length; i++){
+        if (arr1 >1 && arr1 % arr1 == 0 && arr1 % 1 ==0){
+            return true;
+        };
+    }
+    return primeNumber;
 }
+const soNguyeTo = filterPrimeNumber([1,3,5,7,9,11,12,13]);
+console.log (`Số nguyên tố trong mảng: ${soNguyeTo}`);
 
-// Cập nhật email
 
-// Điểm TB của sinh viên
+// Cập nhật email - Không biết làm
+
+// Điểm TB của sinh viên - Không biết làm
 
 function averageScoreOfStudent (students){
     let total = 0;
