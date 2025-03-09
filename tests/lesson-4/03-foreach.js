@@ -4,7 +4,7 @@ arr.forEach((number) => {
     console.log(number);
 })
 
-//2
+//2 - 
 const array = [1, 2, 3];
 let sum = 0;
 let max = array[0];

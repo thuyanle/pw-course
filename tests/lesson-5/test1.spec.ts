@@ -1,5 +1,6 @@
 import { test } from '@playWright/test'
 test('Register page', async ({ page }) => {
+    
     await test.step('Truy cập trang', async () => {
         await page.goto('https://material.playwrightvn.com/');
     });

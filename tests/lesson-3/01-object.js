@@ -27,12 +27,16 @@ let student = {
 };
 console.log(student["studentGrades"]["math"]);
 
-//product - Không làm được
+//product 
 const product = {
     laptop: 20,
     TV: 50,
     monitor: 10
 };
+for (let property in product){
+    console.log(property);
+    console.log(product[property]);
+}
 
 //settings
 let settings = {
